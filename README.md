@@ -1,8 +1,12 @@
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
+5
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+
+6
+
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
   <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
@@ -42,7 +46,25 @@ $ yarn run start
 $ yarn run start:dev
 
 # production mode
-$ yarn run start:prod
+$ yarn run start:prod55
+
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+
+6
+
+[circleci-url]: https://circleci.com/gh/nestjs/nest
+
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+
+6
+5
+
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+
+6
+
+[circleci-url]: https://circleci.com/gh/nestjs/nest
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 ```
 
 ## Test
@@ -57,6 +79,9 @@ $ yarn run test:e2e
 # test coverage
 $ yarn run test:cov
 ```
+## DOCKER COMPOSE
+
+$ docker compose up
 
 ## Support
 
