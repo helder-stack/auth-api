@@ -57,7 +57,6 @@ $ yarn run start:prod55
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 
 6
-5
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 
@@ -80,9 +79,10 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 ## DOCKER COMPOSE
-
+```bash
 $ docker compose up
 
+``` 
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
