@@ -4,17 +4,9 @@ import UserController from './user.controller';
 import UserService from './user.service';
 
 @Module({
-    imports: [
-        MailerModule
-    ],
-    controllers: [
-        UserController
-    ],
-    providers: [
-        UserService
-    ],
-    exports: [
-        UserService
-    ]
+  imports: [MailerModule],
+  controllers: [UserController],
+  providers: [UserService],
+  exports: [UserService],
 })
 export class UserModule {}

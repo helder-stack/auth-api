@@ -1,6 +1,6 @@
-enum EmailsTypesEnum  {
-    emailValidation = "emailValidation",
-    resetPassword = "resetPassword"
+enum EmailsTypesEnum {
+  emailValidation = 'emailValidation',
+  resetPassword = 'resetPassword',
 }
 
-export default EmailsTypesEnum
+export default EmailsTypesEnum;

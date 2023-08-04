@@ -1,6 +1,6 @@
-export default class CreateUserDTO{
-    name!: string;
-    lastName?: string;
-    email!: string;
-    password!: string;
+export default class CreateUserDTO {
+  name!: string;
+  lastName?: string;
+  email!: string;
+  password!: string;
 }

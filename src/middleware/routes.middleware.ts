@@ -1,23 +1,23 @@
-import { RequestMethod } from "@nestjs/common"
+import { RequestMethod } from '@nestjs/common';
 
 const routes = [
-    {
-        path: "/user/me",
-        method: RequestMethod.PATCH
-    },
-    {
-        path: "/user",
-        method: RequestMethod.DELETE
-    },
-    {
-        path: "/user/me",
-        method: RequestMethod.GET
-    }
-]
+  {
+    path: '/user/me',
+    method: RequestMethod.PATCH,
+  },
+  {
+    path: '/user',
+    method: RequestMethod.DELETE,
+  },
+  {
+    path: '/user/me',
+    method: RequestMethod.GET,
+  },
+];
 
 // {
 //     path: "",
 //     method: ""
 // }
 
-export default routes
+export default routes;

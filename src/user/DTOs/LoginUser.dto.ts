@@ -1,4 +1,4 @@
-export default class LoginUserDTO{
-    email!: string;
-    password!: string;
+export default class LoginUserDTO {
+  email!: string;
+  password!: string;
 }

@@ -1,6 +1,6 @@
-enum StatusEnum{
-    active = "active",
-    deleted = "deleted"
+enum StatusEnum {
+  active = 'active',
+  deleted = 'deleted',
 }
 
-export default StatusEnum
+export default StatusEnum;
