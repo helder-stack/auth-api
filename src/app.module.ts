@@ -1,7 +1,5 @@
 import { MiddlewareConsumer, Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import DatabaseModule from './database/database.module';
 import { AuthMiddleware } from './middleware/auth.middleware';
 import routes from './middleware/routes.middleware';
@@ -9,8 +7,8 @@ import { UserModule } from './user/user.module';
 
 @Module({
   imports: [UserModule, DatabaseModule, ConfigModule.forRoot()],
-  controllers: [AppController],
-  providers: [AppService],
+  controllers: [],
+  providers: [],
 })
 export class AppModule {
   configure(consumer: MiddlewareConsumer) {
