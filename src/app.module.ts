@@ -8,14 +8,12 @@ import routes from './middleware/routes.middleware';
 import { UserModule } from './user/user.module';
 
 @Module({
-  imports: [UserModule, DatabaseModule, ConfigModule.forRoot(),],
+  imports: [UserModule, DatabaseModule, ConfigModule.forRoot()],
   controllers: [AppController],
   providers: [AppService],
 })
 export class AppModule {
   configure(consumer: MiddlewareConsumer) {
-    consumer
-      .apply(AuthMiddleware)
-      .forRoutes(...routes);
+    consumer.apply(AuthMiddleware).forRoutes(...routes);
   }
 }
